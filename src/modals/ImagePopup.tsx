@@ -1,5 +1,5 @@
 import React from "react";
-import Lightbox from "react-18-image-lightbox";
+import Lightbox from "yet-another-react-lightbox";
 
 
 
@@ -17,16 +17,11 @@ const ImagePopup = ({ images, setIsOpen, photoIndex, setPhotoIndex }:  DataType 
   return (
     <React.Fragment>
       <Lightbox
-        mainSrc={images[photoIndex]}
-        nextSrc={images[(photoIndex + 1) % images.length]}
-        prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-        onCloseRequest={() => setIsOpen(false)}
-        onMovePrevRequest={() =>
-          setPhotoIndex((photoIndex + images.length - 1) % images.length)
-        }
-        onMoveNextRequest={() =>
-          setPhotoIndex((photoIndex + 1) % images.length)
-        }
+        open={true}
+        close={() => setIsOpen(false)}
+        index={photoIndex}
+        slides={(images || []).map((src: string) => ({ src }))}
+        on={{ view: ({ index }) => setPhotoIndex(index) }}
       />
     </React.Fragment>
   );

@@ -1208,7 +1208,7 @@ kbd {
 }
 .ak-section-heading.ak-style-1 .background-text {
   z-index: 9;
-  opacity: 0.3;
+  opacity: 0.2;
   position: absolute;
   text-align: center;
   font-family: Oxanium;
@@ -1218,7 +1218,7 @@ kbd {
   line-height: normal;
   text-transform: uppercase;
   display: inline;
-  background: linear-gradient(to right, #222 0%, #fff 50%, #222 100%);
+  background: linear-gradient(to right, #222 0%, #00ff14 50%, #222 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2158,7 +2158,7 @@ kbd {
   align-items: center;
 }
 .ak-site_header.ak-style1 .header-top .wrapper .header-logo {
-  border-right: 0.3px solid #635542;
+  border-right: 0.3px solid #42634c;
   display: flex;
   height: 0%;
   align-items: center;
@@ -2731,7 +2731,7 @@ kbd {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  border-left: 0.3px solid #635542;
+  border-left: 0.3px solid #486644;
   padding-left: 20px;
   height: 100%;
 }
@@ -2753,7 +2753,7 @@ kbd {
 }
 .footer.style-1 .footer-email .background-text {
   z-index: 9;
-  opacity: 0.3;
+  opacity: 0.2;
   text-align: center;
   font-family: Oxanium;
   font-size: 110px;
@@ -2764,7 +2764,7 @@ kbd {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #222 0%, #fff 50%, #222 100%);
+  background: linear-gradient(to right, #222 0%, #00ff14 50%, #222 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2997,7 +2997,7 @@ kbd {
   left: 0;
   bottom: -5px;
   opacity: 1;
-  background-color: #4f4836;
+  background-color: #364f39;
   transition: all 0.5s;
   background-color: var(--primary-color);
 }
@@ -3420,10 +3420,10 @@ kbd {
   flex-direction: column;
 }
 .service-progress-card.style-two .service-item {
-  border: 1px solid rgba(88, 30, 22, 0.6);
+  border: 1px solid rgba(24, 88, 22, 0.6);
 }
 .service-progress-card.style-three .progress-item .ak-border-width {
-  background-color: rgba(88, 30, 22, 0.6);
+  background-color: rgba(24, 88, 22, 0.6);
 }
 .service-progress-card.style-three .service-item {
   background-color: transparent;
@@ -4598,7 +4598,7 @@ kbd {
 }
 .contact-form .from-inputs .type_1 input:focus {
   border-color: rgba(0, 255, 26, 0.4392156863) !important;
-  box-shadow: 0 0 0 0.25rem rgba(109, 10, 10, 0.486);
+  box-shadow: 0 0 0 0.25rem rgba(0, 255, 26, 0.2392156863);
 }
 .contact-form .from-inputs .type_1 .date-time-icon {
   position: absolute;

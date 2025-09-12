@@ -1,5 +1,8 @@
  
 import "../styles/index.scss";
+import "swiper/css/bundle";
+import "react-modal-video/css/modal-video.css";
+import "yet-another-react-lightbox/styles.css";
 
 
 export default function RootLayout({
