@@ -2,7 +2,7 @@
 import React from 'react';
 import { Metadata } from 'next'; 
 import Wrapper from '@/layouts/Wrapper';
-import TeamSingle from '@/components/TeamSingle';
+import TeamSingle from '@/components/team';
 
 
 

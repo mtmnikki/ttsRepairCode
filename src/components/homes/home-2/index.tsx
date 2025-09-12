@@ -8,7 +8,6 @@ import FunfactHomeOne from "../home/FunfactHomeOne";
 import ClientsHomeOne from "../home/ClientsHomeOne";
 import TestimonialHomeOne from "../home/TestimonialHomeOne";
 import TeamArea from "@/components/team/TeamArea";
-import VideoHomeOne from "../home/VideoHomeOne";
 import PriceHomeOne from "../home/PriceHomeOne";
 import BlogHomeOne from "../home/BlogHomeOne"; 
 import AppointmentForm from "@/components/appointment/AppointmentForm";
@@ -26,7 +25,6 @@ const HomeTwo = () => {
       <TestimonialHomeOne />
       <ClientsHomeOne />
       <TeamArea style_2={true} />
-      <VideoHomeOne />
       <PriceHomeOne style_2={true} />
       <BlogHomeOne />
       <AppointmentForm />

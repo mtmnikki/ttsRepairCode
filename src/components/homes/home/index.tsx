@@ -5,7 +5,6 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceHomeOne from './ServiceHomeOne';
 import WhoChoosHomeOne from './WhoChoosHomeOne';
 import Service2HomeOne from './Service2HomeOne';
-import VideoHomeOne from './VideoHomeOne'; 
 import ClientsHomeOne from './ClientsHomeOne';
 import FunfactHomeOne from './FunfactHomeOne';
 import TestimonialHomeOne from './TestimonialHomeOne';
@@ -22,7 +21,6 @@ const HomeOne = () => {
       <ServiceHomeOne />
       <WhoChoosHomeOne />
       <Service2HomeOne />
-      <VideoHomeOne />
       <FunfactHomeOne />
       <ClientsHomeOne />
       <TestimonialHomeOne />

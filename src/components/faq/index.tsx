@@ -4,7 +4,6 @@ import FaqArea from "../services-single/FaqArea";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import FooterOne from "@/layouts/footers/FooterOne";
 import AppointmentForm from "../appointment/AppointmentForm";
-import VideoHomeOne from "../homes/home/VideoHomeOne";
 
 const Faq = () => {
 	return (
@@ -12,7 +11,6 @@ const Faq = () => {
 			<HeaderOne />
 			<Breadcrumb subtitle="Faq" />
 			<FaqArea />
-      <VideoHomeOne />
 			<AppointmentForm />
 			<FooterOne />
 		</>

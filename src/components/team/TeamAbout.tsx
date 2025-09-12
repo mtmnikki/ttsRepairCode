@@ -1,10 +1,8 @@
 "use client"
-import VideoPopup from '@/modals/VideoPopup';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
 const TeamAbout = () => {
-    const [isVideoOpen, setIsVideoOpen] = useState(false);
   
   return (
     <>
@@ -49,38 +47,12 @@ const TeamAbout = () => {
                         humour, or randomised”
                     </p>
                 </div>
-                <div className="d-flex gap-3 align-items-center">
-                    <div>
-                        <a  
-                        onClick={() => setIsVideoOpen(true)}
-                        style={{cursor: "pointer"}}
-                            className="ak-video-block ak-style1 ak-video-open type_2">
-                            <span className="ak-heartbeat-btn">
-                                <span></span>
-                            </span>
-                        </a>
-                    </div>
                     <div>
                         <Link href="/team-single" className="more-btn">VIEW MORE</Link>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-    <div className="container">
-        <div className="ak-height-75 ak-height-lg-75"></div>
-        <div className="primary-color-border"></div>
-        <div className="ak-height-75 ak-height-lg-75"></div>
-    </div>
-
-    
-          {/* video modal start */}
-          <VideoPopup
-        isVideoOpen={isVideoOpen}
-        setIsVideoOpen={setIsVideoOpen}
-        videoId={"Ml4XCF-JS0k"}
-      />
-      {/* video modal end */}
+            </div>  // closes .right-info
+        </div>      // closes .ceo-content
+    </div>          // closes .container
     </>
   );
 };

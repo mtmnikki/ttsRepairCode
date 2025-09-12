@@ -13,7 +13,6 @@ import TestimonialHomeOne from '../home/TestimonialHomeOne';
 import TeamArea from '@/components/team/TeamArea';
 import PricingHomeThree from './PricingHomeThree';
 import BlogHomeThree from './BlogHomeThree';
-import VideoHomeOne from '../home/VideoHomeOne';
 import ClientsHomeOne from '../home/ClientsHomeOne';
 import ContactFormHomeThree from './ContactFormHomeThree';
 
@@ -32,7 +31,6 @@ const HomeThree = () => {
       <TeamArea style_2={true} style_3={true} />
       <PricingHomeThree />
       <BlogHomeThree />
-      <VideoHomeOne style_2={true} />
       <ClientsHomeOne />
       <ContactFormHomeThree />
       <FooterOne />
