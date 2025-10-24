@@ -11,7 +11,6 @@ import TestimonialHomeOne from './TestimonialHomeOne';
 import TeamHomeOne from './TeamHomeOne';
 import PriceHomeOne from './PriceHomeOne';
 import BlogHomeOne from './BlogHomeOne';
-import FooterOne from '@/layouts/footers/FooterOne';
 
 const HomeOne = () => {
   return (

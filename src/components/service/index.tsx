@@ -2,7 +2,6 @@ import React from "react";
 import CtaAbout from "../about/CtaAbout";
 import Breadcrumb from "@/common/Breadcrumb";
 import HeaderOne from "@/layouts/headers/HeaderOne";
-import FooterOne from "@/layouts/footers/FooterOne";
 import Service2HomeOne from "../homes/home/Service2HomeOne";
 
 const Service = () => {

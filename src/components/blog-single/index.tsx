@@ -2,7 +2,6 @@ import React from "react";
 import SimilarBlog from "./SimilarBlog";
 import Breadcrumb from "@/common/Breadcrumb";
 import BlogSingleArea from "./BlogSingleArea";
-import FooterOne from "@/layouts/footers/FooterOne";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 
 const BlogSingle = () => {

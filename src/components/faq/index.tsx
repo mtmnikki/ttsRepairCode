@@ -2,7 +2,6 @@ import React from "react";
 import Breadcrumb from "@/common/Breadcrumb";
 import FaqArea from "../services-single/FaqArea";
 import HeaderOne from "@/layouts/headers/HeaderOne";
-import FooterOne from "@/layouts/footers/FooterOne";
 import AppointmentForm from "../appointment/AppointmentForm";
 
 const Faq = () => {

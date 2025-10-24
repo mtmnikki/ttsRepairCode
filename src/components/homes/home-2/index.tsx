@@ -11,7 +11,6 @@ import TeamArea from "@/components/team/TeamArea";
 import PriceHomeOne from "../home/PriceHomeOne";
 import BlogHomeOne from "../home/BlogHomeOne"; 
 import AppointmentForm from "@/components/appointment/AppointmentForm";
-import FooterOne from "@/layouts/footers/FooterOne";
 
 const HomeTwo = () => {
 	return (

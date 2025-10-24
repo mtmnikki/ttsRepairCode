@@ -8,7 +8,6 @@ import TestimonialHomeOne from "../homes/home/TestimonialHomeOne";
 import TeamHomeOne from "../homes/home/TeamHomeOne";
 import PriceHomeOne from "../homes/home/PriceHomeOne";
 import ClientsHomeOne from "../homes/home/ClientsHomeOne";
-import FooterOne from "@/layouts/footers/FooterOne";
 import CtaAbout from "./CtaAbout";
 
 const About = () => {
