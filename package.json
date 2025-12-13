@@ -16,7 +16,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "eslint-config-next": "canary",
-    "next": "canary",
+    "next": "15.5.8",
     "react": "^19.1.1",
     "yet-another-react-lightbox": "^3.21.7",
     "react-countup": "^6.5.3",
